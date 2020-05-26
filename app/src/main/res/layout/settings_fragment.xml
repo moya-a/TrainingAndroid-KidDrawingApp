@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_dialog_layout"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageButton
+      android:id="@+id/btn_undo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:contentDescription="Undo"
+      android:src="@drawable/ic_icon_undo" />
+
+    <ImageButton
+      android:id="@+id/btn_redo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:contentDescription="Redo"
+      android:src="@drawable/ic_icon_redo" />
+
+    <ImageButton
+      android:id="@+id/btn_reset"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:contentDescription="Reset"
+      android:src="@drawable/ic_icon_delete" />
+
+    <ImageButton
+      android:id="@+id/btn_brush_settings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:contentDescription="Brush Settings"
+      android:src="@drawable/ic_icon_color_lens" />
+
+    <ImageButton
+      android:id="@+id/btn_add_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:contentDescription="Image Settings"
+      android:src="@drawable/ic_icon_add_a_photo" />
+
+    <ImageButton
+      android:id="@+id/btn_save"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:contentDescription="Save Drawing"
+      android:src="@drawable/ic_icon_save" />
+
+    <ImageButton
+      android:id="@+id/btn_share"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Share Drawing"
+      android:src="@drawable/ic_icon_share" />
+  </LinearLayout>
+
+  <ImageButton
+    android:id="@+id/btn_hide_settings"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="Show / Hide Buttons"
+    android:src="@drawable/ic_icon_expand_less" />
+
+</LinearLayout>
